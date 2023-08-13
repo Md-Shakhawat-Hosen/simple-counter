@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.section-bar{
+    max-width: 1240px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    
+}
+.cards {
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    text-align: center;
+    background-color: blueviolet;
+    padding: 40px;
+    color: white;
+}
+.title{
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+
+.card button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 0px;
+    color: white;
+}
+.increment{
+    background-color: rgb(85, 159, 209);
+
+}
+.decrement{
+    background-color: brown;
+}
+.first-title{
+    background-image: linear-gradient(to right,rgb(236, 227, 227),rgb(232, 170, 16));
+    color:transparent;
+    -webkit-background-clip: text;
+}
+span {
+    color: rgb(255, 125, 11);
+}
+.total {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.total-btn{
+    border: 0px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+
+}
+.total-value{
+    background-color: beige;
+    padding: 5px 20px;
+}
+@media screen and (max-width:576px) {
+     .cards {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+     }
+}
